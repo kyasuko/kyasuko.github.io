@@ -1,11 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(47, 24, 68);;
-    color: rgb(143, 120, 164);
+    background: rgb(32, 12, 22);
+    color: #E6B2C7;
     font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
     font-size: 18px;
-	margin: 50px 0;
+    margin: 50px 0;
+    
+
 }
 .container {
     width: 800px;
@@ -18,13 +20,13 @@ body {
 
 }
 .gameExplanation table{
-    border: 1px solid rgb(143, 120, 164);
+    border: 1px solid #E6B2C7;
     border-collapse: collapse;
     width: 100%;
    
 }
 .gameExplanation td, th {
-    border: 1px solid rgb(143, 120, 164);
+    border: 1px solid #E6B2C7;
     
 }
 .gameExplanation  th {
@@ -37,4 +39,8 @@ body {
     width: 100%;
     cursor: pointer;
 
+}
+.copyright{
+    margin-top: 50px;
+    font-size: 12px;
 }
